@@ -1,0 +1,26 @@
+.card-wrapper {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.card-image-position--top {
+  flex-direction: column;
+}
+
+.card-image-position--bottom {
+  flex-direction: column-reverse;
+}
+
+.card-image-position--left {
+  flex-direction: row;
+  gap: 24px;
+}
+
+.card-image-position--right {
+  flex-direction: row-reverse;
+  gap: 24px;
+}

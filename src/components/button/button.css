@@ -1,0 +1,70 @@
+.storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 10px;
+  font-weight: 700;
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  box-shadow: 0 5px #999;
+}
+
+.storybook-button--primary {
+  background-color: #1b48c4;
+  color: white;
+}
+
+.storybook-button--secondary {
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+  background-color: transparent;
+  color: #333;
+}
+
+.storybook-button--sm {
+  padding: 10px 16px;
+  font-size: 12px;
+}
+
+.storybook-button--md {
+  padding: 11px 20px;
+  font-size: 14px;
+}
+
+.storybook-button--lg {
+  padding: 12px 24px;
+  font-size: 16px;
+}
+
+.storybook-button-color--primary {
+  background-color: #1b48c4;
+  color: white;
+}
+
+.storybook-button-color--info {
+  background-color: #029cfd;
+  color: white;
+}
+
+.storybook-button-color--warning {
+  background-color: #efae3e;
+  color: white;
+}
+
+.storybook-button-color--danger {
+  background-color: #ef2d2d;
+  color: white;
+}
+
+.storybook-button-color--success {
+  background-color: #19ab2a;
+  color: white;
+}
+
+.storybook-button-color--success:hover {
+  background-color: #179726;
+}
+
+.storybook-button-color--success:active {
+  background-color: #179726;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
